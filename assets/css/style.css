@@ -85,7 +85,9 @@ section.container {
   border-image: initial;
   border-bottom: 4px dashed #f5ff98 !important;
 }
-
+i{
+  color: rgb(245, 255, 152) !important;
+}
 .Border {
   border-right: 4px dashed rgb(245, 255, 152);
   border-left: 4px dashed rgb(245, 255, 152);
@@ -350,10 +352,15 @@ button {
       margin-bottom: 30px;
   }
 }
-
+ul li span{
+  color: white !important;
+}
 section {
-  padding: 60px 0px;
+  padding: 20px 0px;
   overflow: hidden;
+}
+section#about {
+  padding-top: 60px !important;
 }
 
 .section-title {

@@ -143,11 +143,13 @@ hr {
     left:7% !important;
   }
 }
-
-.Description {
+.Download{
+  float: left;
+}
+/* .Description {
   width: 800px;
   margin: auto;
-}
+} */
 
 #header {
   position: fixed;
@@ -376,16 +378,6 @@ section#about {
   color: rgb(23, 59, 108);
 }
 
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: rgb(245 255 152);
-  bottom: 0px;
-  left: 48%;
-}
 
 .section-title p {
   margin-bottom: 0px;

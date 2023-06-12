@@ -64,7 +64,7 @@ section.container {
 .copyright span {
   position: absolute;
   bottom: -25%;
-  left: 31%;
+  left: 35%;
   z-index: 99;
   font-weight: 500;
   background: #0c0d10;

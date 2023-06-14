@@ -135,6 +135,7 @@ hr {
       top: -2%;
       left: 10%;
   }
+  .socialLinks {top: 0.5%;}
 
   section.container {
       width: 100% !important;
@@ -368,7 +369,11 @@ section#about {
 .section-title {
   padding-bottom: 20px;
 }
+.socialLinks {position: absolute;top: 3%;font-size: 20px;}
 
+.socialLinks a {
+    border-right: 3px solid #f5ff98 !important;
+}
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -1007,11 +1012,14 @@ li {
   color: rgb(14, 36, 66);
   content: "/";
 }
-
+.socialLinks span {
+  font-weight: 500;
+}
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
       display: block !important;
   }
+  .socialLinks {top: 1%;}
   .copyright span{
     left:27%;
   }

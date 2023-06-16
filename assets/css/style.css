@@ -1,6 +1,6 @@
 body {
   font-family: "Maven Pro", sans-serif;
-  background-color: rgb(12, 13, 16);
+  background-color: rgb(0 0 0);
 }
 i.bi.bi-arrow-up-short {
     color: black !important;
@@ -67,7 +67,7 @@ section.container {
   left: 35%;
   z-index: 99;
   font-weight: 500;
-  background: #0c0d10;
+  background: #000000;
   padding: 0px 12px;
 }
 
@@ -101,7 +101,7 @@ i{
   top: -2%;
   left: 29%;
   color: rgb(245, 255, 152);
-  background-color: rgb(12, 13, 16);
+  background-color: rgb(0 0 0);
   padding: 0px 20px;
 }
 
